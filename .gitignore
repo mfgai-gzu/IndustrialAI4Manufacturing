@@ -216,3 +216,25 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# 图片资源（不上传jpg/png图像文件）
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.tiff
+
+# Python运行缓存
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Mac系统隐藏文件
+.DS_Store
+._*
+
+# 虚拟环境文件夹
+venv/
+env/
