@@ -1,10 +1,10 @@
 import cv2
 import os
 
-# 读取说明书里的零件截图（把截图放到同目录，命名为part.png）
+# 读取说明书里的零件截图（把截图放到同目录，命名为part.jpeg）
 img = cv2.imread('part.jpeg')
 if img is None:
-    print("请把零件截图放在同目录，命名为 part.pnjpeg")
+    print("请把零件截图放在同目录，命名为 part.jpeg")
     exit()
 
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
