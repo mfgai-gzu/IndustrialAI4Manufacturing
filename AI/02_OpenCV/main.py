@@ -1,1 +1,0 @@
-print("hello Industrial AI")

@@ -232,3 +232,9 @@ __pycache__/
 # 虚拟环境文件夹
 venv/
 env/
+
+#图片
+*.png
+*.jpg
+*.jpeg
+*.bmp
